@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Fondamento:ital@0;1&family=Fugaz+One&family=Lexend:wght@100..900&family=Quando&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Fondamento:ital@0;1&family=Fugaz+One&family=Lexend:wght@100..900&family=Pattaya&family=Quando&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Buda:wght@300&family=Fondamento:ital@0;1&family=Fugaz+One&family=Gideon+Roman&family=Lexend:wght@100..900&family=Pattaya&family=Quando&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
@@ -14,25 +13,25 @@ body {
     height: 220px;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     position: fixed;
-    width: 100%; 
-    top: 0; 
+    width: 100%;
+    top: 0;
     z-index: 1000;
 }
 
 img {
-    width: 270px; 
-    height: 270px; 
+    width: 270px;
+    height: 270px;
     border: 10px solid #242F40;
     border-radius: 50%;
-    position: relative; 
-    top: 50px; 
+    position: relative;
+    top: 50px;
 }
 
 #contactInfo {
     background-color: #242F40;
-    margin: 0 30px 0 0; 
+    margin: 0 30px 0 0;
     padding: 5px;
 }
 
@@ -42,7 +41,7 @@ a {
 }
 
 a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 h1 {
@@ -56,7 +55,7 @@ h1 {
 }
 
 #name {
-    margin-left: 30px;  
+    margin-left: 30px;
 }
 
 #contactInfo p {
@@ -68,7 +67,7 @@ h1 {
     color: #363636;
     width: 70%;
     display: block;
-    margin: 350px auto 10px auto; 
+    margin: 350px auto 10px auto;
     padding: 40px;
     box-shadow: 4px 4px 7px #363636;
     border-radius: 10px;
@@ -101,6 +100,5 @@ td {
 
 th:nth-child(2),
 td:nth-child(2) {
-  /* border-left: 2px solid black;  */
-  padding-right: 45px;
+    padding-right: 45px;
 }
